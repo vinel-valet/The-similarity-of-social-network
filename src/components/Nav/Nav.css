@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    background-color: bisque;
+    border-radius: 0 0 0 15px;
+    font: 1.5rem Arial;
+    border: 1px solid black;
+    padding-top: .3rem;
+}
+
+.itemNav {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.itemNav a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.itemNav a.active {
+    color: orangered;
+}
+
+.itemNav:hover {
+    background-color: #f4f8ff;
+}
