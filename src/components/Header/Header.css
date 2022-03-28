@@ -3,9 +3,8 @@
     background-color: white;
     border-radius: 0 0 15px 15px;
     box-shadow: 0px 0px 3px black;
-}
-
-.header img {
-    width: 90px;
-    margin-left: 5px;
+    font: 32px Arial;
+    padding: 9px 16px;
+    font-variant: small-caps;
+    letter-spacing: 4px;
 }
