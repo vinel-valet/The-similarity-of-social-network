@@ -1,14 +1,14 @@
 import React from "react";
 import './Profile.css'
-import MyPosts from "./MyPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
-const Profile = ({profilePage, dispatch}) => {
-  return (
-    <div className='profileCounter'>
-          <ProfileInfo/>
-          <MyPosts profilePage={profilePage} dispatch={dispatch}/>
-    </div>
-  );
+const Profile = (props) => {
+    return (
+        <div className='profileCounter'>
+            <ProfileInfo/>
+            <MyPostsContainer store={props.store}/>
+        </div>
+    );
 }
 export default Profile;
