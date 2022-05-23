@@ -5,10 +5,10 @@ const ProfileInfo = () => {
     return (
         <div className='profileInfo'>
             <div>
-                <img className='fonImg' src={require('./fon.png')} />
+                <img className='fonImg' src={require('./fon.png')}/>
             </div>
             <div>
-                <img className='avatarImg' src={require('./avatar.jpg')} />
+                <img className='avatarImg' src={require('./avatar.jpg')}/>
             </div>
         </div>
     );
